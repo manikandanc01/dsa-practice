@@ -102,10 +102,10 @@ for(let i=1;i<=n;i++){
 
 //Optimal Approach using XOR
 
-   module.exports{
+  function appr3(A){
     //param A : array of integers
     //return a array of integers
-       repeatedNumber : function(A){
+       
            
            let n=A.length;
            let xor=0;
@@ -152,7 +152,7 @@ for(let i=1;i<=n;i++){
            
            return [one,zero];
    
-       }
-    }
+ }
+    
    
 
